@@ -1,6 +1,14 @@
 # Module docstring
-# This script calculates the area of different shapes:
-# the shapes are square, rectangle, circle, and triangle. Here user can input the dimensions of each shape, and the script will calculate #and displayits corresponding area.
+"""
+This module provides functions to calculate the areas of different shapes.
+The available functions are:
+- area_of_square(side): Calculates the area of a square.
+- area_of_rectangle(length, width): Calculates the area of a rectangle.
+- area_of_circle(radius): Calculates the area of a circle.
+- area_of_triangle(base, height): Calculates the area of a triangle.
+
+The user can choose a shape and input the corresponding dimensions to get the area.
+"""
 import math
 def area_of_square(side):
     """Calculating the area of a square."""
