@@ -1,6 +1,6 @@
-import math
 # Module docstring
 # This script calculates the area of square, rectangle, circle, and triangle.
+import math
 def area_of_square(side):
     """Calculating the area of a square."""
     return side * side
