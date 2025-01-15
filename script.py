@@ -1,18 +1,26 @@
 import math
 
+# Module docstring
+# calculates the area of square, rectangle, circle, and triangle.
+
 def area_of_square(side):
+    """Calculate the area of a square."""
     return side * side
 
 def area_of_rectangle(length, width):
+    """Calculate the area of a rectangle."""
     return length * width
 
 def area_of_circle(radius):
+    """Calculate the area of a circle."""
     return math.pi * radius**2
 
 def area_of_triangle(base, height):
+    """Calculate the area of a triangle."""
     return 0.5 * base * height
 
 def main():
+    """select shape and calculate area."""
     print("Select shape:")
     print("1. Square")
     print("2. Rectangle")
